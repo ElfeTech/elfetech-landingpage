@@ -80,7 +80,7 @@ export const Hero = () => {
             className="relative w-full h-full flex flex-col justify-center"
             style={{ clipPath: `path('M 0,0 L 9200,0 C 9600,0 9900,300 9700,1000 L 8200,9000 C 8000,9700 7700,10000 7200,10000 L 0,10000 Z')` }}
           >
-            <div className="pl-8 md:pl-20 lg:pl-32 xl:pl-40 pr-12 md:pr-40 lg:pr-64 z-30">
+            <div className="pl-4 sm:pl-6 md:pl-12 lg:pl-[max(3rem,calc((100vw-80rem)/2+2rem))] pr-12 md:pr-40 lg:pr-64 z-30">
               {/* Main headline */}
               <h1 
                 className={`text-4xl md:text-5xl lg:text-7xl font-extrabold text-[#1e1b4b] leading-[1.05] mb-6 uppercase tracking-tighter transition-all duration-700 ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
