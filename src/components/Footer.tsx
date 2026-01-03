@@ -1,4 +1,4 @@
-import { Twitter, Linkedin, Github, Mail, Facebook } from "lucide-react";
+import { Twitter, Linkedin, Mail, Facebook } from "lucide-react";
 import logoWithText from "@/assets/elfetech-logowith-text.png";
 import { openCalendly } from "./WhatDoYouWantToDo";
 
